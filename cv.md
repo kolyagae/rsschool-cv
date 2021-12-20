@@ -39,7 +39,7 @@ function multiply(a, b) {
 
 ## Experiences
 
-**[My rsschool-cv] (https://kolyagae.github.io/rsschool-cv/cv)**
+**[My rsschool-cv](https://kolyagae.github.io/rsschool-cv/cv)**
 
 ---
 
