@@ -4,7 +4,164 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/img/cv.ico" />
+    <title>cv</title>
   </head>
-  <body></body>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experiences" class="nav-link">Experiences</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container main-container">
+        <section class="section" id="photo">
+          <img src="./assets/img/My photo.jpg" alt="my photo" width="250" />
+        </section>
+        <section class="section" id="myname">
+          <h1 class="section-title" id="name">Yauheni Kaliaha</h1>
+          <h2 class="section-title" id="profession">RS School's student</h2>
+        </section>
+        <div class="row"></div>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li>
+              Phone:
+              <a href="tel: +375 29 124 19 75" class="contacts-link"
+                >+375 29 1241975</a
+              >
+            </li>
+            <li>
+              E-mail:
+              <a href="mailto:k.e.l@tut.by" class="contacts-link"
+                >k.e.l@tut.by</a
+              >
+            </li>
+            <li>Discord: Yauheni Kaliaha (@kolyagae)</li>
+            <li>
+              GitHub:
+              <a
+                href="https://github.com/kolyagae"
+                class="contacts-link"
+                target="_blank"
+              >
+                kolyagae</a
+              >
+            </li>
+            <li>Address: Sharangovicha Street, Minsk, Belarus</li>
+          </ul>
+        </section>
+        <section class="section" id="about-me">
+          <h2 class="section-title">About Me</h2>
+          <p id="about-me-p">
+            I know how to work in a team. I take a responsible approach to the
+            performance of my official duties. I follow the rules and standards,
+            attentive to details. My goal is to gain knowledge and skills in the
+            field of Frontend development for further employment. I was very
+            interested in web development and I want to learn as much as
+            possible about it, I am ready to constantly learn and develop in
+            this direction.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML (Basic)</li>
+            <li>CSS (Basic)</li>
+            <li>JavaScript (Basic)</li>
+            <li>Git (Basic)</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code example</h2>
+          <pre class="code">
+    multiply(a, b) {
+    <span class="span-code">return</span> a * b;
+    }
+          </pre>
+        </section>
+        <section class="section" id="experiences">
+          <h2 class="section-title">Experiences</h2>
+          <p id="experiences-link">
+            My rsschool
+            <a
+              href="https://kolyagae.github.io/rsschool-cv/cv"
+              class="experiences-link"
+              target="_blank"
+              >CV</a
+            >
+          </p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p id="education-p">
+            International University "MITSO" (expected/anticipated graduation:
+            May 2024).
+          </p>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Russian - Native</li>
+            <li>English - A1</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li class="footer-item">&copy 2022</li>
+          <li class="footer-item">
+            <a href="https://github.com/kolyagae" target="_blank">
+              <img
+                src="./assets/img/github_logo.svg"
+                alt="github-logo"
+                width="50"
+                title="kolyagae"
+              />
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="https://rs.school/js/" class="footer-link" target="_blank">
+              <img
+                src="./assets/img/rs_school_js.svg"
+                alt="rss-logo"
+                width="100"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
