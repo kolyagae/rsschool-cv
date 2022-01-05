@@ -88,7 +88,8 @@ nav > ul > li {
 }
 
 @media (max-width: 768px) {
-  .section {
+  .section,
+  .section_name {
     width: 100%;
   }
 }
@@ -99,12 +100,8 @@ nav > ul > li {
   text-transform: uppercase;
   letter-spacing: 5px;
   color: black;
-
   padding-left: 20px;
   margin: 30px;
-}
-
-h2 {
   background-color: #829985;
 }
 
@@ -112,12 +109,6 @@ h2 {
   font-size: 45px;
   color: black;
   margin-top: 80px;
-}
-
-#profession {
-  font-size: 20;
-  color: black;
-  background-color: #fafafa;
 }
 
 .experiences {
@@ -144,9 +135,9 @@ h2 {
   position: relative;
 }
 
-#photo img {
+#photo {
   border: 20px solid #fafafa;
-  border-top-width: 50px;
+  border-top-width: 20px;
   border-bottom-width: 50px;
   box-shadow: 3px 3px 6px #415243;
 }
@@ -155,4 +146,21 @@ h2 {
 #education-p,
 #experiences-link {
   margin-left: 40px;
+}
+
+.section_name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 50px 20px;
+}
+
+.section_name-title {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: black;
+  padding-left: 20px;
+  margin: 30px;
 }
